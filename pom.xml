@@ -106,9 +106,10 @@
         </configuration>
       </plugin>
 	    <plugin>
-   <artifactId>maven-deploy-plugin</artifactId>
-   <version>3.6.0</version>
-   <executions>
+		<groupId>org.sonatype.plugins</groupId>
+ 		<artifactId>nexus-staging-maven-plugin</artifactId>
+                <version>3.6.0</version>
+  <executions>
       <execution>
          <id>default-deploy</id>
          <phase>deploy</phase>
