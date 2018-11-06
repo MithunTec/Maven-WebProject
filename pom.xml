@@ -105,16 +105,6 @@
           <target>1.7</target>
         </configuration>
       </plugin>
-	    <plugin>
-		<groupId>org.sonatype.plugins</groupId>
- 		<artifactId>nexus-staging-maven-plugin</artifactId>
-                <version>1.10</version>
-  <configuration>
-      <serverId>nexus</serverId>
-      <nexusUrl>http://localhost:8085/</nexusUrl>
-      <skipStaging>true</skipStaging>
-   </configuration>
-</plugin>
     </plugins>
   </build>
 
